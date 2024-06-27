@@ -1,88 +1,89 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Customer Workflow">
-    <mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" math="0" shadow="0">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
 
+        <!-- Swimlane for Customer -->
         <mxCell id="2" value="Customer" style="swimlane" vertex="1" parent="1">
-          <mxGeometry width="200" height="2200" as="geometry" />
+          <mxGeometry width="200" height="2080" as="geometry" />
         </mxCell>
 
-        <!-- Customer actions -->
-        <mxCell id="3" value="Purchase Product/Service 🛒" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <!-- Workflow Steps -->
+        <mxCell id="3" value="Purchase Product/Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="20" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Verify warranty inclusion ✅" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="4" value="Verify warranty inclusion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="100" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Receive warranty documentation 📜" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="5" value="Receive warranty documentation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="180" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Register warranty in the BitWarranty app 📲" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="6" value="Register warranty in the BitWarranty app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="260" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Download app 📥" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="7" value="Download app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="340" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Create an account 👤" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="8" value="Create an account" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="420" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="Input product details 📋" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="9" value="Input product details" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="500" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="Upload proof of purchase 🧾" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="10" value="Upload proof of purchase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="580" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="Manage Warranties 🛠️" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="11" value="Manage Warranties" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="660" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="Access warranty details in the app 📖" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="12" value="Access warranty details in the app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="740" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="Track warranty expiration dates 📅" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="13" value="Track warranty expiration dates" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="820" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="Transfer warranties if selling the product 🔄" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="14" value="Transfer warranties if selling the product" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="900" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="Contact customer service 📞" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="15" value="Contact customer service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="980" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="Provide new owner's details 📑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="16" value="Provide new owner's details" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="1060" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="17" value="Initiate a claim through the app 📝" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="17" value="Initiate a claim through the app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="1140" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="Provide necessary documentation 📂" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="18" value="Provide necessary documentation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="1220" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="19" value="Proof of purchase 🧾" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="19" value="Proof of purchase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="1300" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="20" value="Photos of the defect 📷" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="20" value="Photos of the defect" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="1380" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="21" value="Submit claim 📤" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="21" value="Submit claim" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="1460" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="22" value="Track claim status 🚦" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="22" value="Track claim status" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="1540" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="23" value="Receive notifications on updates 🔔" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="23" value="Receive notifications on updates" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="1620" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="24" value="Communicate with warranty provider if needed 💬" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="24" value="Communicate with warranty provider if needed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="1700" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="25" value="Review service quality 🌟" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="25" value="Review service quality" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="1780" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="26" value="Provide feedback on claim process 🗣️" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="26" value="Provide feedback on claim process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="1860" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="27" value="Update warranty status 🔄" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="27" value="Update warranty status" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="20" y="1940" width="160" height="60" as="geometry" />
         </mxCell>
 
