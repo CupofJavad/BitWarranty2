@@ -1,0 +1,76 @@
+<flowchart>
+
+    <!-- Swimlane for Customer -->
+    <swimlane title="Customer">
+        
+        <!-- Customer purchases a product with a warranty -->
+        <process id="purchaseWarranty" name="Purchase Product with Warranty">
+            <arrow direction="down" to="registerProduct" />
+        </process>
+
+        <!-- Customer registers product -->
+        <process id="registerProduct" name="Register Product in BitWarranty App">
+            <arrow direction="right" to="validateOwnership" />
+        </process>
+    </swimlane>
+    
+    <!-- Swimlane for BitWarranty System -->
+    <swimlane title="BitWarranty System">
+
+        <!-- Validate ownership -->
+        <process id="validateOwnership" name="Validate Ownership">
+            <arrow direction="down" to="activateWarranty" />
+        </process>
+
+        <!-- Activate warranty -->
+        <process id="activateWarranty" name="Activate Warranty">
+            <arrow direction="down" to="manageWarranty" />
+        </process>
+
+        <!-- Manage warranty -->
+        <process id="manageWarranty" name="Manage Warranty Lifecycle">
+            <arrow direction="down" to="trackUsage" />
+            <arrow direction="right" to="decisionPoint" />
+        </process>
+
+        <!-- Track usage -->
+        <process id="trackUsage" name="Track Warranty Usage">
+            <arrow direction="down" to="handleClaims" />
+        </process>
+
+        <!-- Handle claims -->
+        <process id="handleClaims" name="Handle Warranty Claims">
+            <arrow direction="down" to="processCompleted" />
+        </process>
+
+        <!-- Decision point for renewal or expiration -->
+        <decision id="decisionPoint" name="Warranty Expire or Renewal">
+            <arrow direction="down" to="renewWarranty" text="Renew" />
+            <arrow direction="down" to="expireWarranty" text="Expire" />
+        </decision>
+        
+        <!-- Swimlane for Seller -->
+        <swimlane title="Seller">
+
+            <!-- Seller renews warranty -->
+            <process id="renewWarranty" name="Renew Warranty">
+                <arrow direction="down" to="updateWarrantyTerms" />
+            </process>
+            
+            <!-- Seller updates warranty terms -->
+            <process id="updateWarrantyTerms" name="Update Warranty Terms">
+                <arrow direction="up" to="validateOwnership" />
+            </process>
+
+            <!-- Warranty expires -->
+            <process id="expireWarranty" name="Warranty Expire">
+                <arrow direction="down" to="processCompleted" />
+            </process>
+
+        </swimlane>
+    </swimlane>
+
+    <!-- Process completed -->
+    <end id="processCompleted" name="Process Completed"/>
+    
+</flowchart>
