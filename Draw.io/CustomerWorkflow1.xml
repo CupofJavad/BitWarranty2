@@ -7,7 +7,7 @@
 
         <!-- Swimlane: Customer -->
         <mxCell id="2" value="Customer" style="swimlane" vertex="1" parent="1">
-          <mxGeometry width="200" height="2200" as="geometry" />
+          <mxGeometry width="200" height="2080" as="geometry" />
         </mxCell>
 
         <!-- Customer actions -->
