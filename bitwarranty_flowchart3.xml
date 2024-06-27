@@ -1,178 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net">
-  <diagram name="Workflows" id="2W_gW10hZv7CYCuYx61c">
-    <mxGraphModel dx="1430" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram name="Page-1">
+    <mxGraphModel dx="1528" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <!-- Customer Workflow -->
-        <mxCell id="2" value="Customer Workflow" style="swimlane" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="0" y="0" width="240" height="2040" as="geometry" />
-        </mxCell>
-        <mxCell id="25" value="Purchase Product/Service 🛍️" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="20" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="26" value="Verify warranty inclusion ✅" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="100" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="27" value="Receive warranty documentation 📄" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="180" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="28" value="Register warranty in the BitWarranty app 📝" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="260" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="29" value="Download app 📲" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="340" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="30" value="Create an account 🔑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="420" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="31" value="Input product details 🛒" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="500" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="32" value="Upload proof of purchase 📤" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="580" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="33" value="Manage Warranties 🔧" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="660" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="34" value="Access warranty details in the app 📱" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="740" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="35" value="Track warranty expiration dates ⏰" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="820" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="36" value="Transfer warranties if selling the product 🔄" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="900" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="37" value="Contact customer service 📞" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="980" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="38" value="Provide new owner's details 📝" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="1060" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="39" value="Warranty Claims 📋" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="1140" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="40" value="Initiate a claim through the app 📲" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="1220" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="41" value="Provide necessary documentation 📑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="1300" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="42" value="Proof of purchase 💳" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="1380" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="43" value="Photos of the defect 📸" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="1460" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="44" value="Submit claim 📬" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="1540" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="45" value="Track claim status 📈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="1620" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="46" value="Receive notifications on updates 🔔" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="1700" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="47" value="Communicate with warranty provider if needed 💬" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="1780" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="48" value="Post-Claim Actions 🛠️" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="1860" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="49" value="Repair/replace product as per warranty terms 🔄" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="20" y="1940" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="25" target="26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="26" target="27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="27" target="28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="28" target="29">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="29" target="30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="30" target="31">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="31" target="32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="32" target="33">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="33" target="34">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="34" target="35">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="35" target="36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="36" target="37">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="37" target="38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="38" target="39">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="39" target="40">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="40" target="41">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="41" target="42">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="42" target="43">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="43" target="44">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="44" target="45">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="45" target="46">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="46" target="47">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="47" target="48">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="48" target="49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <!-- Manufacturer Workflow -->
-        <mxCell id="3" value="Manufacturer Workflow" style="swimlane" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="260" y="0" width="240" height="2040" as="geometry" />
-        </mxCell>
-        <mxCell id="51" value="Product Design 📐" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+        <mxCell id="3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="20" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="52" value="Prototyping 🛠️" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+        <mxCell id="51" value="Product Concept Ideation 💡" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="280" y="20" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="52" value="Market Research 📊" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
           <mxGeometry x="280" y="100" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="53" value="Testing 🧪" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+        <mxCell id="53" value="Prototyping 🛠️" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
           <mxGeometry x="280" y="180" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="54" value="Regulatory Approval ✅" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+        <mxCell id="54" value="User Testing 👥" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
           <mxGeometry x="280" y="260" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="55" value="Production 📦" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+        <mxCell id="55" value="Manufacturing Setup 🏭" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
           <mxGeometry x="280" y="340" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="56" value="Quality Assurance ✔️" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
@@ -232,7 +80,7 @@
         <mxCell id="74" value="Logistics Optimization 🚚" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
           <mxGeometry x="280" y="1860" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="75" value="Sales Strategies 💰" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+        <mxCell id="75" value="Revenue Management 💰" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
           <mxGeometry x="280" y="1940" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="51" target="52">
@@ -311,4 +159,3 @@
     </mxGraphModel>
   </diagram>
 </mxfile>
-
