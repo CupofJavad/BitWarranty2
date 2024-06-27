@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitWarranty Cross-Functional Flow Chart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            margin: 20px;
+        }
+        .swimlane {
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        .swimlane h3 {
+            margin-top: 0;
+            text-align: center;
+        }
+        .step {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #e9e9e9;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BitWarranty Cross-Functional Flow Chart</h1>
+        <p>This flow chart illustrates the end-to-end process for a BitWarranty event, including interactions between different environments, users, channels, and entities.</p>
+    </header>
+    <div class="container">
+        <!-- Swimlane for Consumer Actions -->
+        <div class="swimlane">
+            <h3>Consumer</h3>
+            <div class="step">Purchase Product/Service</div>
+            <div class="step">Register Warranty via App</div>
+            <div class="step">Access Warranty Details</div>
+            <div class="step">Submit Warranty Claim</div>
+            <div class="step">Receive Claim Status</div>
+        </div>
+        
+        <!-- Swimlane for BitWarranty Platform -->
+        <div class="swimlane">
+            <h3>BitWarranty Platform</h3>
+            <div class="step">Receive Warranty Registration</div>
+            <div class="step">Store Warranty Data on Blockchain</div>
+            <div class="step">Provide Warranty Details to Consumer</div>
+            <div class="step">Process Warranty Claim</div>
+            <div class="step">Update Claim Status on Blockchain</div>
+        </div>
+
+        <!-- Swimlane for Seller (Manufacturer/Service Provider) -->
+        <div class="swimlane">
+            <h3>Seller</h3>
+            <div class="step">Create Warranty Template</div>
+            <div class="step">Register Warranty on BitWarranty</div>
+            <div class="step">Validate Warranty Claims</div>
+            <div class="step">Approve/Reject Claims</div>
+            <div class="step">Provide Feedback on Claims</div>
+        </div>
+
+        <!-- Swimlane for Blockchain Network -->
+        <div class="swimlane">
+            <h3>Blockchain Network</h3>
+            <div class="step">Store Warranty Registration</div>
+            <div class="step">Validate Data Integrity</div>
+            <div class="step">Log Warranty Transactions</div>
+            <div class="step">Provide Tamper-Proof History</div>
+            <div class="step">Facilitate Secure Transactions</div>
+        </div>
+
+        <!-- Swimlane for Customer Support -->
+        <div class="swimlane">
+            <h3>Customer Support</h3>
+            <div class="step">Assist with Warranty Registration</div>
+            <div class="step">Answer Consumer Queries</div>
+            <div class="step">Guide on Claim Submission</div>
+            <div class="step">Update Consumer on Claim Status</div>
+            <div class="step">Resolve Disputes</div>
+        </div>
+    </div>
+</body>
+</html>
