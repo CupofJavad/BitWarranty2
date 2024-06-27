@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="BitWarranty Process Map">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Swimlane: Consumer -->
+        <mxCell id="2" value="Consumer" style="swimlane" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="300" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Purchase Product/Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="10" y="60" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Register Warranty via App" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="10" y="140" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Submit Warranty Claim" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="10" y="220" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Receive Claim Status" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="10" y="300" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Swimlane: BitWarranty Platform -->
+        <mxCell id="7" value="BitWarranty Platform" style="swimlane" vertex="1" parent="1">
+          <mxGeometry x="300" y="0" width="300" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Receive Warranty Registration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+          <mxGeometry x="310" y="60" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Store Warranty Data on Blockchain" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+          <mxGeometry x="310" y="140" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Provide Warranty Details to Consumer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+          <mxGeometry x="310" y="220" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Process Warranty Claim" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+          <mxGeometry x="310" y="300" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Update Claim Status on Blockchain" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+          <mxGeometry x="310" y="380" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Swimlane: Seller (Manufacturer/Service Provider) -->
+        <mxCell id="13" value="Seller" style="swimlane" vertex="1" parent="1">
+          <mxGeometry x="600" y="0" width="300" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Create Warranty Template" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="13">
+          <mxGeometry x="610" y="60" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Register Warranty on BitWarranty" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="13">
+          <mxGeometry x="610" y="140" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Validate Warranty Claims" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="13">
+          <mxGeometry x="610" y="220" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Approve/Reject Claims" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="13">
+          <mxGeometry x="610" y="300" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Provide Feedback on Claims" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="13">
+          <mxGeometry x="610" y="380" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Swimlane: Blockchain Network -->
+        <mxCell id="19" value="Blockchain Network" style="swimlane" vertex="1" parent="1">
+          <mxGeometry x="900" y="0" width="300" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="Store Warranty Registration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="19">
+          <mxGeometry x="910" y="60" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Validate Data Integrity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="19">
+          <mxGeometry x="910" y="140" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="Log Warranty Transactions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="19">
+          <mxGeometry x="910" y="220" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Provide Tamper-Proof History" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="19">
+          <mxGeometry x="910" y="300" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="Facilitate Secure Transactions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="19">
+          <mxGeometry x="910" y="380" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Swimlane: Customer Support -->
+        <mxCell id="25" value="Customer Support" style="swimlane" vertex="1" parent="1">
+          <mxGeometry x="1200" y="0" width="300" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="Assist with Warranty Registration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="25">
+          <mxGeometry x="1210" y="60" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="Answer Consumer Queries" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="25">
+          <mxGeometry x="1210" y="140" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="Guide on Claim Submission" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="25">
+          <mxGeometry x="1210" y="220" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="Update Consumer on Claim Status" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="25">
+          <mxGeometry x="1210" y="300" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="Resolve Disputes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="25">
+          <mxGeometry x="1210" y="380" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows for process flow -->
+        <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="3" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="8" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="9" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="5" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="11" target="12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="37" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="12" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="6" target="29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
